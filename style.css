@@ -1,0 +1,124 @@
+html {
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    height: 100vh;
+    scroll-snap-align: start;
+    text-align: center;
+    position: relative;
+}
+
+section{
+    height:800px;
+}
+
+.highlight{
+    color:darkorange;
+    font-size: 40px;
+}
+
+h1{
+    font-size:30px}
+
+.top-section{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+.mid-section{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+.work-section{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+
+.foot-sec{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 35%;
+    float: left;
+    padding-top:5%;
+}
+
+.half-width img{
+    width:100%;
+}
+
+.left-side{
+    margin-left: 10%;
+
+}
+
+.left-side img{
+    height: 80%;
+}
+
+.right-side{
+    margin-right: 10%;
+}
+
+.text-part{
+    padding-top:18%;
+    padding-left: 10%;
+}
+
+.button{
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+}
+
+.th-width{
+    padding-top: 5%;
+    width:30%;
+    float:left;
+    padding-left: 2.5%;
+}
+
+.th-width  img{
+    width: 100%
+}
+
+.work-section h1{
+    text-align: center;
+}
+
+.foot-sec{
+    text-align: center;
+}
+
+.foot-sec a{
+    font-size: 25px;
+    padding: 10px 40px;
+}
+
+.quote::after{
+    content: " ''";
+    font-size: 20px;
+}
+
+.quote::before{
+    content: "'' ";
+    font-size: 20px;
+}
+.quote{
+    padding-left: 30%;
+    padding-right: 30%;
+}
